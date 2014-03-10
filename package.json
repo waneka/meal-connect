@@ -1,0 +1,20 @@
+{
+  "name": "meal-connect",
+  "version": "0.1.0",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waneka/meal-connect"
+  },
+
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "express": "~3.4.8",
+    "jade": "~1.3.0",
+    "stylus": "~0.42.3",
+    "underscore": "~1.6.0"
+  }
+}
