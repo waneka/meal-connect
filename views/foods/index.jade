@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+  h3 All Foods
+
+  ul
+    - for food in foods
+      li=food.name

@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  h3 New Food
+
+  form(action="/foods", method="post")
+    label Food Name
+    input(name="name")
+
+    input(type="submit", value="Save")
