@@ -1,0 +1,25 @@
+doctype html
+
+html(lang='en', dir='ltr')
+
+  head
+    title Meal Connect
+    meta(charset='utf-8')
+
+    link(rel='stylesheet', href='/stylesheets/vendor/normalize.css')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+
+  body
+    #header
+      a(href="/")
+        h1 Meal Connect
+
+        nav
+          a(href="/foods") All Foods
+          span=" - "
+          a(href="/foods/new") New Food
+
+    #content
+      block content
+
+    script(type='text/javascript' src='/javascripts/vendor/jquery.min.js')
